@@ -18,7 +18,7 @@ export const ingest = action({
         args.splitText,
         { fileId: args.fileId }, // Ensure metadata is passed as an object
         new GoogleGenerativeAIEmbeddings({
-          apiKey: "AIzaSyA2ufH32AXhEdAlruRU1flQcMFgIxe9oac",
+          apiKey: "AIzaSyCgPz5I15GPeSlzRflBI5yw_sqJzYO8Mb4",
           model: "text-embedding-004",
           taskType: TaskType.RETRIEVAL_DOCUMENT,
           title: "Document Title",
